@@ -1,4 +1,4 @@
-package com.v.wheelview;
+package com.v.wheelview.interfaces;
 
 public interface IPickerViewData {
     String getPickerViewText();

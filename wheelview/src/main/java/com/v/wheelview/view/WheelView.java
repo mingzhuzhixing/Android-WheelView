@@ -16,11 +16,11 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.v.wheelview.IPickerViewData;
-import com.v.wheelview.InertiaTimerTask;
-import com.v.wheelview.MessageHandler;
+import com.v.wheelview.interfaces.IPickerViewData;
+import com.v.wheelview.task.InertiaTimerTask;
+import com.v.wheelview.task.MessageHandler;
 import com.v.wheelview.R;
-import com.v.wheelview.SmoothScrollTimerTask;
+import com.v.wheelview.task.SmoothScrollTimerTask;
 import com.v.wheelview.adapter.WheelAdapter;
 import com.v.wheelview.listener.LoopViewGestureListener;
 import com.v.wheelview.listener.OnItemSelectedListener;
